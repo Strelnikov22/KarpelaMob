@@ -1,0 +1,618 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>karpela.com | Main Page WebSite</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="shortcut icon" href="images/partner-logo-121x121-01.jpg">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic" rel="stylesheet">
+    
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/jscript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
+
+
+
+</head>
+<body>
+  <header id="carpela-header">
+      <div class="margin-box container">
+          <div class="row">
+            <a href="/" class="col-lg-2 col-lg-push-0 col-md-2 col-md-push-0 col-sm-4 col-sm-push-4 col-xs-4 col-xs-push-4"><img class="logo" alt="logo" src="img/logo.png"></a>
+            <div class="nav-box col-lg-7 col-lg-pull-0 col-md-7 col-md-pull-0 col-sm-4 col-sm-pull-4 col-xs-4 col-xs-pull-4">
+                <form id="search-block" class="hidden-xs hidden-sm">
+                    <input id="search-field" type="text">
+                    <input id="search-go" type="submit" alt="search" value="">
+                    <input id="search-city" type="sgt" alt="search" value="Калининград">
+                </form>
+                <nav class="navbar navbar-default" role="navigation">
+                  <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav ">
+                    <li class="active"><a href="#">Водоемы</a></li>
+                    <li><a href="#">Отчеты</a></li>
+                    <li><a href="#">Рейтинг Karpela</a></li>
+                    <li><a href="#">Рыболовы</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Еще <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Действие</a></li>
+                        <li><a href="#">Другое действие</a></li>
+                        <li><a href="#">Что-то еще</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+                <!--<nav class="nav-menu">
+                    <Li>    <a href="/" class="nav-active">Водоемы</a></Li>
+                    <li><a href="/">Отчеты</a></li>
+                    <li><a href="/">Рыболовы</a></li>
+                    <li><a href="/">Рейтинг Karpela</a></li>
+                    <li><a href="/">Karpela Big Fich</a></li>
+
+                    <li>       
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Еще <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Пункт меню1</a></li>
+                        <li><a href="#">Пункт меню2</a></li>
+                        <li><a href="#">Пункт меню3</a></li>
+                        <li><a href="#">Пункт меню4</a></li>
+                    </ul>
+                </li>
+            </nav>-->
+        </div>
+        <div class="user-block col-lg-3 col-md-3 col-xs-4 col-sm-4">
+            <img src="img/ava-header-88x88.jpg" class="hidden-xs hidden-sm">
+            <div class="user-block-info hidden-xs hidden-sm">
+                <div class="user-name"><a href="/">Андрей<br />Иванов</a></div>
+                <div class="user-weather"><span class="temp">-2°</span><span class="cloudy"></span></div>                       
+            </div>
+
+            <div class="user-block-open">
+                <i class="fa fa-user fa-4x hidden-lg hidden-md" aria-hidden="true"></i>
+                <div class="user-block-open-box">
+                    <ul>
+                        <li><div class="i-star"></div><a href="/">Избранное</a></li>
+                        <li><div class="i-mail"></div><a href="/">Сообщения</a></li>
+                        <li><div class="i-gallary"></div><a href="/">Галерея</a></li>
+                        <li><div class="i-game"></div><a href="/">Водоемы</a></li>
+                        <li><div class="i-settings"></div><a href="/">Управление подписками</a></li>
+                        <li><div class="i-copy"></div><a href="/">История</a></li>
+                        <li><div class="i-doc"></div><a href="/">Мероприятия</a></li>
+                        <li><div class="i-pen"></div><a href="/">Блог</a></li>
+                        <li><div class="i-off"></div><a href="/">Выход</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="map-box hidden-xs hidden-sm">
+    <div class="open-close-map-box">
+        <div class="open-close-map"> 
+            <span class="map-ico"></span>
+            <span id="map-close-arrow"></span>
+            <a class="white twelve yandex" href="#">Yandex map</a>
+            <a class="white twelve google" href="#">Google map</a>
+        </div>
+    </div>
+    <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2212.9482341031007!2d43.98851771600381!3d56.313466580707065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4151d5b22f3325a9%3A0xa8b663ba0a0cf1b3!2z0J_QsNC80Y_RgtC90LjQuiDQnNCw0LrRgdC40LzRgyDQk9C-0YDRjNC60L7QvNGD!5e0!3m2!1sru!2sru!4v1489530674946" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe></div><!--Здесь код карты-->
+</div>
+</header>
+<div class="main-container container" id="fisher-pass">
+    <div class="wrapper row">
+        <div class="thin-left-sidebar col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            <div class="name-reg">
+                <div class="name-reg-head white fourteen">Андрей Иванов<span class="ten"><a href="/">ред.</a></span></div>
+            </div>
+            <img class="admin-ava" src="img/report-ava-inside-225x225-00.jpg">
+            <div class="rate-box white"><span class="fourteen">Рейтинг:</span><span class="sixteen">883.1300</span></div>
+            <a class="fourteen white link-list" href="/"><span class="left">Водоемы</span><span class="right">13</span></a>
+            <a class="fourteen white link-list" href="/"><span class="left">Сообщения</span><span class="right">1</span></a>
+            <a class="fourteen white link-list" href="/"><span class="left">Отчеты</span><span class="right">32</span></a>
+            <a class="fourteen white link-list" href="/"><span class="left">Фотография</span><span class="right">15</span></a>
+            <a class="fourteen white link-list" href="/"><span class="left">Моя лента</span><span class="right">7</span></a>
+        </div>    
+        <div class="right-body col-lg-9 col-md-9 col-sm-12 col-xs-12">
+            <div class="when grey fourteen">был 4 декабря 12:56</div>
+            <h2 class="bold">Андрей Иванов</h2>
+            <div class="wrapper row">
+                <div class="left-past about col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="fourteen"><span class="grey">Дата рождения:</span><span class="">24 июня 1972г.</span></div>
+                    <div class="fourteen"><span class="grey">Город:</span><span class="">Киев</span></div>
+                    <div class="fourteen"><span class="grey">Автомобиль:</span><span class="">Volkswagen Tiguan</span></div>
+                    <div class="fourteen"><span class="grey">Увлечения:</span><span class="">Настольный теннис</span></div>
+                    <div class="fourteen"><span class="grey">Род деятельности:</span><span class="">Архитектор</span></div>
+                    <div class="fourteen"><span class="grey">О себе</span><span class="">Характер скверный, не женат.</span></div>
+                </div>
+                <div class="right-past about col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="fourteen"><span class="grey">Люблю ловить:</span><span class="">мирная, хищная</span></div>
+                    <div class="fourteen"><span class="grey">На рыбалке:</span><span class="">сам, с друзьями</span></div>
+                    <div class="fourteen"><span class="grey">Снасти:</span><span class="">поплавок, фидер, матч, спиннинг</span></div>
+                    <div class="fourteen"><span class="grey">Любимый сезон:</span><span class="">весна, лето, осень, зима</span></div>
+                    <div class="fourteen"><span class="grey">Плавсредство:</span><span class="">есть</span></div>
+                    <div class="fourteen"><span class="grey">Водоемы:</span><span class="">открытые, закрытые</span></div>                            
+                </div>
+            </div>
+            <div class="wrapper row">
+                <div class="progress-box col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <div class="head-grey white up">Достижения</div>
+                    <div class="progress-string"><div class="big-ico big-map"></div><span class="sixteen black light">Добавлено водоемов:</span><span class="eighteen green bold">15</span></div>
+                    <div class="progress-string"><div class="big-ico big-com"></div><span class="sixteen black light">Выездов:</span><span class="eighteen green bold">140</span></div>
+                    <div class="progress-string"><div class="big-ico big-anc"></div><span class="sixteen black light">Всего поймано:</span><span class="eighteen green bold">1161.04 кг</span></div>
+                    <div class="progress-string"><div class="big-ico big-str"></div><span class="sixteen black light">Самая крупная рыба:</span><span class="eighteen green bold">14600 гр</span></div>
+                </div>
+                <div class="calendar-box-two col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="head-grey white up">Планируют</div>
+                    <div class="day-head">
+                        <div class="big-header-title">Понедельник</div>
+                        <div class="sixteen grey">5 декабря 2014</div>
+                    </div>
+                    <div class="cal-body ten">
+                        <div class="name-days green-bg">
+                            <div class="cal-day white">Пн</div>
+                            <div class="cal-day white">Вт</div>
+                            <div class="cal-day white">Ср</div>
+                            <div class="cal-day white">Чт</div>
+                            <div class="cal-day white">Пт</div>
+                            <div class="cal-day white">Сб</div>
+                            <div class="cal-day white">Вс</div>
+                        </div>
+                        <div class="num-days grey-bg">    
+                            <div class="day-block">
+                                <span class="grey">27</span>
+                                <div class="feu-event">
+                                    <span class="fue">Оз. Трофейное 14.12.2014</span>
+                                </div>
+                            </div>
+                            <div class="day-block">
+                                <span class="grey">28</span>
+                            </div>
+                            <div class="day-block">
+                                <span class="grey">29</span>
+                            </div>
+                            <div class="day-block">
+                                <span class="grey">30</span>
+                            </div>
+                            <div class="day-block">
+                                <span>1</span>
+                            </div>
+                            <div class="day-block">
+                                <span>2</span>
+                            </div>
+                            <div class="day-block">
+                                <span>3</span>
+                            </div>
+                            <div class="day-block">
+                                <span>4</span>
+                            </div>
+                            <div class="day-block">
+                                <span>5</span>
+                            </div>
+                            <div class="day-block">
+                                <span>6</span>
+                            </div>
+                            <div class="day-block">
+                                <span>7</span>
+                            </div>
+                            <div class="day-block">
+                                <span>8</span>
+                            </div>
+                            <div class="day-block">
+                                <span>9</span>
+                            </div>
+                            <div class="day-block">
+                                <span>10</span>
+                            </div>
+                            <div class="day-block">
+                                <span>11</span>
+                            </div>
+                            <div class="day-block">
+                                <span>12</span>
+                            </div>
+                            <div class="day-block">
+                                <span>13</span>
+                            </div>
+                            <div class="day-block">
+                                <span>14</span>
+                            </div>
+                            <div class="day-block">
+                                <span>15</span>
+                            </div>
+                            <div class="day-block">
+                                <span>16</span>
+                            </div>
+                            <div class="day-block">
+                                <span>17</span>
+                            </div>
+                            <div class="day-block">
+                                <span>18</span>
+                            </div>
+                            <div class="day-block">
+                                <span>19</span>
+                            </div>
+                            <div class="day-block">
+                                <span>20</span>
+                            </div>
+                            <div class="day-block">
+                                <span>21</span>
+                            </div>
+                            <div class="day-block">
+                                <span>22</span>
+                            </div>
+                            <div class="day-block">
+                                <span>23</span>
+                            </div>
+                            <div class="day-block">
+                                <span>24</span>
+                            </div>
+                            <div class="day-block">
+                                <span>25</span>
+                            </div>
+                            <div class="day-block">
+                                <span>26</span>
+                            </div>
+                            <div class="day-block">
+                                <span>27</span>
+                            </div>
+                            <div class="day-block">
+                                <span>28</span>
+                            </div>
+                            <div class="day-block">
+                                <span>29</span>
+                            </div>
+                            <div class="day-block">
+                                <span>30</span>
+                            </div>
+                            <div class="day-block">
+                                <span>31</span>
+                                <div class="feu-event">
+                                    <span class="fue">Оз. Трофейное 14.12.2014</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                        
+            </div>
+        </div>    
+    </div>
+    <div class="wrapper row">
+        <div class="left-side-bar-III col-lg-4 col-md-4 hidden-sm hidden-xs">
+            <div class="switch">
+                <a href="/" class="sixteen white">Блог</a>
+                <a href="/" class="sixteen black active">Подписки</a>
+            </div>  
+            <div class="box-grey-border list-small-middle-body">
+                <a class="button-link" href="/">Смотреть все</a>
+                <div class="quant last-post">
+                    <div class="who">(Иван Sami 26.11.2014 15:42)</div>
+                    <div class="title-sm"><a href="/">Осінньо-зимові Карпати: туризм і розвідка по річковій форельці</a></div>
+                    <div class="text-sm">В Карпатах осінню побувати ніяк не вдавалося, а тут випала нагода відвідати цей чарівний край як представник від батьків (і як стаціонарний лікар на...</div>
+                    <div class="comments-nav">
+                        <span class="x10-646464">Комментарии</span>
+                        <div class="pico-ico n-message"></div>
+                        <span>12</span>
+                        <div class="pico-ico n-eye"></div>
+                        <span>43</span>
+                        <div class="pico-ico n-like"></div>
+                        <span>24</span>
+                    </div>
+                </div>
+                <div class="quant last-post">
+                    <div class="who">(Иван Sami 26.11.2014 15:42)</div>
+                    <div class="title-sm"><a href="/">Осінньо-зимові Карпати: туризм і розвідка по річковій форельці</a></div>
+                    <div class="text-sm">В Карпатах осінню побувати ніяк не вдавалося, а тут випала нагода відвідати цей чарівний край як представник від батьків (і як стаціонарний лікар на...</div>
+                    <div class="comments-nav">
+                        <span class="x10-646464">Комментарии</span>
+                        <div class="pico-ico n-message"></div>
+                        <span>12</span>
+                        <div class="pico-ico n-eye"></div>
+                        <span>43</span>
+                        <div class="pico-ico n-like"></div>
+                        <span>24</span>
+                    </div>
+                </div>
+                <div class="quant last-post">
+                    <div class="who">(Иван Sami 26.11.2014 15:42)</div>
+                    <div class="title-sm"><a href="/">Осінньо-зимові Карпати: туризм і розвідка по річковій форельці</a></div>
+                    <div class="text-sm">В Карпатах осінню побувати ніяк не вдавалося, а тут випала нагода відвідати цей чарівний край як представник від батьків (і як стаціонарний лікар на...</div>
+                    <div class="comments-nav">
+                        <span class="x10-646464">Комментарии</span>
+                        <div class="pico-ico n-message"></div>
+                        <span>12</span>
+                        <div class="pico-ico n-eye"></div>
+                        <span>43</span>
+                        <div class="pico-ico n-like"></div>
+                        <span>24</span>
+                    </div>
+                </div>
+                <div class="quant last-post">
+                    <div class="who">(Иван Sami 26.11.2014 15:42)</div>
+                    <div class="title-sm"><a href="/">Осінньо-зимові Карпати: туризм і розвідка по річковій форельці</a></div>
+                    <div class="text-sm">В Карпатах осінню побувати ніяк не вдавалося, а тут випала нагода відвідати цей чарівний край як представник від батьків (і як стаціонарний лікар на...</div>
+                    <div class="comments-nav">
+                        <span class="x10-646464">Комментарии</span>
+                        <div class="pico-ico n-message"></div>
+                        <span>12</span>
+                        <div class="pico-ico n-eye"></div>
+                        <span>43</span>
+                        <div class="pico-ico n-like"></div>
+                        <span>24</span>
+                    </div>
+                </div>
+                <div class="quant last-post">
+                    <div class="who">(Иван Sami 26.11.2014 15:42)</div>
+                    <div class="title-sm"><a href="/">Осінньо-зимові Карпати: туризм і розвідка по річковій форельці</a></div>
+                    <div class="text-sm">В Карпатах осінню побувати ніяк не вдавалося, а тут випала нагода відвідати цей чарівний край як представник від батьків (і як стаціонарний лікар на...</div>
+                    <div class="comments-nav">
+                        <span class="x10-646464">Комментарии</span>
+                        <div class="pico-ico n-message"></div>
+                        <span>12</span>
+                        <div class="pico-ico n-eye"></div>
+                        <span>43</span>
+                        <div class="pico-ico n-like"></div>
+                        <span>24</span>
+                    </div>
+                </div>
+                <div class="quant last-post">
+                    <div class="who">(Иван Sami 26.11.2014 15:42)</div>
+                    <div class="title-sm"><a href="/">Осінньо-зимові Карпати: туризм і розвідка по річковій форельці</a></div>
+                    <div class="text-sm">В Карпатах осінню побувати ніяк не вдавалося, а тут випала нагода відвідати цей чарівний край як представник від батьків (і як стаціонарний лікар на...</div>
+                    <div class="comments-nav">
+                        <span class="x10-646464">Комментарии</span>
+                        <div class="pico-ico n-message"></div>
+                        <span>12</span>
+                        <div class="pico-ico n-eye"></div>
+                        <span>43</span>
+                        <div class="pico-ico n-like"></div>
+                        <span>24</span>
+                    </div>
+                </div>
+                <div class="quant last-post">
+                    <div class="who">(Иван Sami 26.11.2014 15:42)</div>
+                    <div class="title-sm"><a href="/">Осінньо-зимові Карпати: туризм і розвідка по річковій форельці</a></div>
+                    <div class="text-sm">В Карпатах осінню побувати ніяк не вдавалося, а тут випала нагода відвідати цей чарівний край як представник від батьків (і як стаціонарний лікар на...</div>
+                    <div class="comments-nav">
+                        <span class="x10-646464">Комментарии</span>
+                        <div class="pico-ico n-message"></div>
+                        <span>12</span>
+                        <div class="pico-ico n-eye"></div>
+                        <span>43</span>
+                        <div class="pico-ico n-like"></div>
+                        <span>24</span>
+                    </div>
+                </div>
+                <div class="quant last-post">
+                    <div class="who">(Иван Sami 26.11.2014 15:42)</div>
+                    <div class="title-sm"><a href="/">Осінньо-зимові Карпати: туризм і розвідка по річковій форельці</a></div>
+                    <div class="text-sm">В Карпатах осінню побувати ніяк не вдавалося, а тут випала нагода відвідати цей чарівний край як представник від батьків (і як стаціонарний лікар на...</div>
+                    <div class="comments-nav">
+                        <span class="x10-646464">Комментарии</span>
+                        <div class="pico-ico n-message"></div>
+                        <span>12</span>
+                        <div class="pico-ico n-eye"></div>
+                        <span>43</span>
+                        <div class="pico-ico n-like"></div>
+                        <span>24</span>
+                    </div>
+                </div>
+            </div>                    
+        </div>                
+        <div class="right-side-bar-III col-lg-8 col-md-8 hidden-sm hidden-xs">
+            <div class="block">
+                <div class="switch">
+                    <a href="/" class="sixteen white">Блог</a>
+                    <a href="/" class="sixteen black active">Подписки</a>
+                </div>
+                <div class="box-grey-border fisher-border">
+                    <a class="button-link" href="/">Смотреть все</a>
+                    <div class="quant fisher-review">
+                        <img src="img/fisher-pass-img-150x113-00.jpg">
+                        <div class="list-review-text">
+                            <a href="/" class="sixteen bold black">Слобода (ЧП Берюк), Слобода, Киевская обл.</a>
+                            <div class="fourteen"><span class="grey">Площадь водоема:</span><span class="">12 Га</span></div>
+                            <div class="fourteen"><span class="grey">Рыба:</span><span class="">карп, карась, толстолоб, судак, сом, окунь</span></div>
+                            <div class="fourteen"><span class="grey">Описание проезда:</span><span class="">Едем по трассе Киев-Кагарлык, на 71 кмвидим указатель с. Слобода и поварачиваем на на лево, в селе на т- образным перекрестком...</span></div>
+                        </div>
+                    </div>
+                    <div class="quant fisher-review">
+                        <img src="img/fisher-pass-img-150x113-00.jpg">
+                        <div class="list-review-text">
+                            <a href="/" class="sixteen bold black">Слобода (ЧП Берюк), Слобода, Киевская обл.</a>
+                            <div class="fourteen"><span class="grey">Площадь водоема:</span><span class="">12 Га</span></div>
+                            <div class="fourteen"><span class="grey">Рыба:</span><span class="">карп, карась, толстолоб, судак, сом, окунь</span></div>
+                            <div class="fourteen"><span class="grey">Описание проезда:</span><span class="">Едем по трассе Киев-Кагарлык, на 71 кмвидим указатель с. Слобода и поварачиваем на на лево, в селе на т- образным перекрестком...</span></div>
+                        </div>
+                    </div>
+                    <div class="quant fisher-review">
+                        <img src="img/fisher-pass-img-150x113-00.jpg">
+                        <div class="list-review-text">
+                            <a href="/" class="sixteen bold black">Слобода (ЧП Берюк), Слобода, Киевская обл.</a>
+                            <div class="fourteen"><span class="grey">Площадь водоема:</span><span class="">12 Га</span></div>
+                            <div class="fourteen"><span class="grey">Рыба:</span><span class="">карп, карась, толстолоб, судак, сом, окунь</span></div>
+                            <div class="fourteen"><span class="grey">Описание проезда:</span><span class="">Едем по трассе Киев-Кагарлык, на 71 кмвидим указатель с. Слобода и поварачиваем на на лево, в селе на т- образным перекрестком...</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block comments">
+                <div class="row-adaptive-padd">
+                    <div class="title col-md-3 col-lg-3">Комментарии</div>
+                </div>
+                <div class="box-grey-border comment-in-report">
+                    <div class="quant comment">
+                        <div class="commants-ava"><img src="img/ava-sidebar-60x60-00.jpg"></div>
+                        <div class="commants-body">
+                            <h3 class="black">Василий Иванишин</h3>
+                            <div class="italic grey fouteen">вчера 12:12</div>
+                            <p class="fourteen">Доброго времени суток, дорогие рыболовы. Хотим напомнить, что у нас на водоеме есть возможность ловли  открытой воды. К вашим услугам 5 вымосток, на которых постоянно работают аэраторы.Будем рады видеть  Вас на нашем водоеме. С уважением, администрация озераК вашим услугам 5 вымосток, на которых постоянно работают аэраторы.Будем рады видеть Вас на нашем водоеме</p>
+                            <div class="comments-nav">
+                                <div class="pico-ico n-message"></div>
+                                <span>12</span>
+                                <div class="pico-ico n-like"></div>
+                                <span>24</span>
+                                <a class="twelve grey" href="/">Ответить</a>
+                            </div>
+                            <div class="response">
+                                <div class="response-header">    
+                                    <img src="img/message-list-ava-45x45-00.jpg">
+                                    <div class="response-nav thirteen">
+                                        <div class="black semibold">Андрей Иванов</div>
+                                        <div class="grey">6.11.2014 11:52</div>
+                                    </div>
+                                </div>
+                                <p class="thirteen">Хороший пост ( это ответ на комментарий )</p>                                
+                            </div>
+                            <div class="response">
+                                <div class="response-header">    
+                                    <img src="img/message-list-ava-45x45-00.jpg">
+                                    <div class="response-nav thirteen">
+                                        <div class="black semibold">Андрей Иванов</div>
+                                        <div class="grey">6.11.2014 11:52</div>
+                                    </div>
+                                </div>
+                                <p class="thirteen">Хороший пост ( это ответ на комментарий )</p>
+                                <textarea id="add-fish-comment" class="italic grey twelve">Написать комментарий</textarea>
+                                <button class="button-link-com" href="/">Отправить</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quant comment">
+                        <div class="commants-ava"><img src="img/ava-sidebar-60x60-00.jpg"></div>
+                        <div class="commants-body">
+                            <h3 class="black">Василий Иванишин</h3>
+                            <div class="italic grey fouteen">вчера 12:12</div>
+                            <img src="img/8736455345.jpg"><br />
+                            <a href="" class="black bold">Слобода (ЧП Берюк), Слобода, Киевская обл.</a>
+                            <div class="comments-nav">
+                                <div class="pico-ico n-message"></div>
+                                <span>12</span>
+                                <div class="pico-ico n-like"></div>
+                                <span>24</span>
+                                <a class="twelve grey" href="/">Ответить</a>
+                            </div>
+                            <div class="response">
+                                <div class="response-header">    
+                                    <img src="img/message-list-ava-45x45-00.jpg">
+                                    <div class="response-nav thirteen">
+                                        <div class="black semibold">Андрей Иванов</div>
+                                        <div class="grey">6.11.2014 11:52</div>
+                                    </div>
+                                </div>
+                                <p class="thirteen">Хороший пост ( это ответ на комментарий )</p>                                
+                            </div>
+                            <div class="response">
+                                <div class="response-header">    
+                                    <img src="img/message-list-ava-45x45-00.jpg">
+                                    <div class="response-nav thirteen">
+                                        <div class="black semibold">Андрей Иванов</div>
+                                        <div class="grey">6.11.2014 11:52</div>
+                                    </div>
+                                </div>
+                                <p class="thirteen">Хороший пост ( это ответ на комментарий )</p>
+                                <textarea id="add-fish-comment" class="italic grey twelve">Написать комментарий</textarea>
+                                <button class="button-link-com" href="/">Отправить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>                    
+        </div>                
+    </div>
+</div>
+<footer>
+    <div class="container footer_one">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 hidden-sm hidden-xs voda_footer">
+                <h4>Водоемы</h4>
+                <ul>
+                    <li>Слобода (ЧП Берюк)</li>
+                    <li>Слобода (ЧП Берюк)</li>
+                    <li>Слобода (ЧП Берюк)Слобода (ЧП Берюк)</li>
+                    <li>Слобода (ЧП Берюк)</li>
+                </ul>
+                <a href="#">Смотреть все</a>
+            </div>
+            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
+                <h4>Отчеты</h4>
+                <ul>
+                    <li>Урочище Драчки. карась с лодки на фидер</li>
+                    <li>Урочище Драчки. карась с лодки на фидер</li>
+                    <li>Урочище Драчки. карась с лодки на фидер</li>
+                    <li>Урочище Драчки. карась с лодки на фидер</li>
+                </ul>
+                <a href="#">Смотреть все</a>
+            </div>
+            <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+                <h4>Мероприятия</h4>
+                <ul>
+                    <li>Закрытие сезона 2014</li> 
+                    <li>Закрытие сезона 2014</li> 
+                    <li>Закрытие сезона 2014</li> 
+                    <li>Закрытие сезона 2014</li> 
+                </ul>
+                <a href="#">Смотреть все</a>
+            </div>
+            <div class="col-lg-offset-0 col-lg-3 col-md-offset-0 col-md-3 col-sm-offset-3 col-sm-6 col-xs-offset-2 col-xs-8 contacts_search">
+                <h4 class="hidden-sm hidden-xs">Контакты</h4>
+                <ul>
+                    <li><i class="fa fa-mobile fa-lg" aria-hidden="true"></i>Тел. +380 99 750 45 32</li>
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i>E-mail: support.@gmail.com</li>
+                    <li><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>г.Киев, ул.Довженка 15</li>
+                </ul>
+                <div class="block-search hidden-md hidden-sm hidden-xs">
+                    <input type="text" class="search">
+                    <a href="#"><img src="img/search.png"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluide footer_two">
+        <div class="row">
+            <div class="col-lg-offset-2 col-lg-3 col-md-offset-2 col-md-3  col-sm-12 col-xs-12">
+                <span>
+                    Компания © Все права защищены, 2017
+                </span>
+            </div>
+            <div class="col-lg-5 col-md-5 hidden-sm hidden-xs">
+
+                <ul class="row">
+                    <li class="col-lg-2 col-md-2"><a href="#">Водоемы</a></li>
+                    <li class="col-lg-2 col-md-2"><a href="#">Отчеты</a></li>
+                    <li class="col-lg-2 col-md-2"><a href="#">Мроприятия</a></li>
+                    <li class="col-lg-2 col-md-2"><a href="#">Рыболовы</a></li>
+                    <li class="col-lg-2 col-md-2"><a href="#">Объявления</a></li>
+                    <li class="col-lg-2 col-md-2"><a href="#">Блог</a></li>
+                </ul>
+
+            </div>
+            <div class="co-lg-2 col-md-2 hidden-sm hidden-xs arows_footer">
+                <a href="#"><img src="img/sprite.png" class="arows_footer_img"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
